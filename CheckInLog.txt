@@ -1,0 +1,5 @@
+----------------------------------------------------
+--User: d ESM: StalkerUnderBloodMoon.esm Date: 2019-2-20 00:43
+----------------------------------------------------
+Initial commit for the mod.  Added an OP test item called Testaxe
+
