@@ -3,3 +3,8 @@
 ----------------------------------------------------
 Initial commit for the mod.  Added an OP test item called Testaxe
 
+----------------------------------------------------
+--User: d ESM: StalkerUnderBloodMoon.esm Date: 2019-2-20 02:11
+----------------------------------------------------
+Added a barrel to the UnownedCell
+
