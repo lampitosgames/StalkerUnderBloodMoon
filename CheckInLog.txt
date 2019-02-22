@@ -8,3 +8,8 @@ Initial commit for the mod.  Added an OP test item called Testaxe
 ----------------------------------------------------
 Added a barrel to the UnownedCell
 
+----------------------------------------------------
+--User: det2948 ESM: StalkerUnderBloodMoon.esm Date: 2019-2-22 17:12
+----------------------------------------------------
+Added the bow.  It's called Beastbane
+
