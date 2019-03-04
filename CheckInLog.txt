@@ -18,3 +18,8 @@ Added the bow.  It's called Beastbane
 ----------------------------------------------------
 test barrel in unowned cell
 
+----------------------------------------------------
+--User: james ESM: StalkerUnderBloodMoon.esm Date: 2019-3-4 17:56
+----------------------------------------------------
+started terraforming
+
