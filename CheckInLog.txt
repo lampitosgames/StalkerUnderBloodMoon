@@ -13,3 +13,8 @@ Added a barrel to the UnownedCell
 ----------------------------------------------------
 Added the bow.  It's called Beastbane
 
+----------------------------------------------------
+--User: james ESM: StalkerUnderBloodMoon.esm Date: 2019-3-4 12:41
+----------------------------------------------------
+test barrel in unowned cell
+
