@@ -23,3 +23,8 @@ test barrel in unowned cell
 ----------------------------------------------------
 started terraforming
 
+----------------------------------------------------
+--User: james ESM: StalkerUnderBloodMoon.esm Date: 2019-3-6 17:47
+----------------------------------------------------
+continued terraforming
+
