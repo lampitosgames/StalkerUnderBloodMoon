@@ -1,0 +1,9 @@
+game: skyrim
+imports:
+    - S:\ModOrganizer\overwrite\Scripts\Source
+    - S:\Steam\steamapps\common\Skyrim\Data\Scripts\Source
+    - S:\Steam\steamapps\common\Skyrim\Data\Scripts\Source\Dawnguard
+    - S:\Steam\steamapps\common\Skyrim\Data\Scripts\Source\Dragonborn
+    - S:\Steam\steamapps\common\Skyrim\Data\Scripts\Source\Hearthfire
+output: S:\ModOrganizer\overwrite\Scripts
+optimize: true
