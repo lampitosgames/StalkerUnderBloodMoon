@@ -33,3 +33,8 @@ continued terraforming
 ----------------------------------------------------
 Added mechanical functionality to the Beastbane bow. It now drains the user's magicka once fully drawn to increase damage of the next shot over time
 
+----------------------------------------------------
+--User: james ESM: StalkerUnderBloodMoon.esm Date: 2019-3-8 04:26
+----------------------------------------------------
+finished beachhead and lake terraforming
+
