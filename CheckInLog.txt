@@ -38,3 +38,8 @@ Added mechanical functionality to the Beastbane bow. It now drains the user's ma
 ----------------------------------------------------
 finished beachhead and lake terraforming
 
+----------------------------------------------------
+--User: james ESM: StalkerUnderBloodMoon.esm Date: 2019-3-24 20:37
+----------------------------------------------------
+Fixed water height issue and terraformed all of the island
+
