@@ -43,3 +43,8 @@ finished beachhead and lake terraforming
 ----------------------------------------------------
 Fixed water height issue and terraformed all of the island
 
+----------------------------------------------------
+--User: james ESM: StalkerUnderBloodMoon.esm Date: 2019-3-25 00:22
+----------------------------------------------------
+Added texture to the landscape and messed with terraforming some more
+
