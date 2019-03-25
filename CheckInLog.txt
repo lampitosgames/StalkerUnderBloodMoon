@@ -48,3 +48,8 @@ Fixed water height issue and terraformed all of the island
 ----------------------------------------------------
 Added texture to the landscape and messed with terraforming some more
 
+----------------------------------------------------
+--User: james ESM: StalkerUnderBloodMoon.esm Date: 2019-3-25 05:16
+----------------------------------------------------
+finished texturing landscape and fixed landscape texture bug
+
