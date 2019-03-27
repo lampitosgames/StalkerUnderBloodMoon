@@ -53,3 +53,8 @@ Added texture to the landscape and messed with terraforming some more
 ----------------------------------------------------
 finished texturing landscape and fixed landscape texture bug
 
+----------------------------------------------------
+--User: james ESM: StalkerUnderBloodMoon.esm Date: 2019-3-27 16:32
+----------------------------------------------------
+landscape changes
+
