@@ -83,3 +83,8 @@ Added a barrel to the unownedcell to test merging on a new computer
 ----------------------------------------------------
 landscape changes
 
+----------------------------------------------------
+--User: det2948 ESM: StalkerUnderBloodMoon.esm Date: 2019-3-30 19:07
+----------------------------------------------------
+Terrain sculpting for beast boss fight area
+
