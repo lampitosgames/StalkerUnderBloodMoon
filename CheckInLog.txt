@@ -73,3 +73,8 @@ First-pass iteration of adding ice to the lake at the center of the island.  TOD
 ----------------------------------------------------
 Temp edit for testing version control
 
+----------------------------------------------------
+--User: User ESM: StalkerUnderBloodMoon.esm Date: 2019-3-30 17:51
+----------------------------------------------------
+Added a barrel to the unownedcell to test merging on a new computer
+
