@@ -78,3 +78,8 @@ Temp edit for testing version control
 ----------------------------------------------------
 Added a barrel to the unownedcell to test merging on a new computer
 
+----------------------------------------------------
+--User: james ESM: StalkerUnderBloodMoon.esm Date: 2019-3-30 18:34
+----------------------------------------------------
+landscape changes
+
