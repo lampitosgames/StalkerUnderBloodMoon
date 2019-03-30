@@ -68,3 +68,8 @@ landscape changes
 ----------------------------------------------------
 First-pass iteration of adding ice to the lake at the center of the island.  TODO: expand with more icebergs, fix z-fighting, and re-texture the central shrine island to be more frozen
 
+----------------------------------------------------
+--User: det2948 ESM: StalkerUnderBloodMoon.esm Date: 2019-3-30 17:34
+----------------------------------------------------
+Temp edit for testing version control
+
