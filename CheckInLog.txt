@@ -98,3 +98,8 @@ Basic Quest skeleton and npc actors created, needs dialgoue added
 ----------------------------------------------------
 Massive terraforming updates. Added mountains and rocks to most of the island with a few cool hidden areas/paths. Made the cave entrance to the blood moon grotto
 
+----------------------------------------------------
+--User: james ESM: StalkerUnderBloodMoon.esm Date: 2019-4-1 16:19
+----------------------------------------------------
+environment prop placement near landing beach
+
