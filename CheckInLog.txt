@@ -108,3 +108,8 @@ environment prop placement near landing beach
 ----------------------------------------------------
 environment prop placement near landing beach
 
+----------------------------------------------------
+--User: james ESM: StalkerUnderBloodMoon.esm Date: 2019-4-2 06:24
+----------------------------------------------------
+Trees and rocks placement
+
