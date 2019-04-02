@@ -103,3 +103,8 @@ Massive terraforming updates. Added mountains and rocks to most of the island wi
 ----------------------------------------------------
 environment prop placement near landing beach
 
+----------------------------------------------------
+--User: james ESM: StalkerUnderBloodMoon.esm Date: 2019-4-2 05:37
+----------------------------------------------------
+environment prop placement near landing beach
+
