@@ -113,3 +113,8 @@ environment prop placement near landing beach
 ----------------------------------------------------
 Trees and rocks placement
 
+----------------------------------------------------
+--User: d ESM: StalkerUnderBloodMoon.esm Date: 2019-4-3 03:54
+----------------------------------------------------
+Complete overhaul of the beach area. More work on the boss fight area
+
