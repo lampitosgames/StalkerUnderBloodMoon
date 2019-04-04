@@ -118,3 +118,13 @@ Trees and rocks placement
 ----------------------------------------------------
 Complete overhaul of the beach area. More work on the boss fight area
 
+----------------------------------------------------
+--User: User ESM: StalkerUnderBloodMoon.esm Date: 2019-4-4 21:27
+----------------------------------------------------
+The new quest, igmeBloodMoon, has Dialogue. Sigirid will speak with you in the unownedcell.
+
+----------------------------------------------------
+--User: User ESM: StalkerUnderBloodMoon.esm Date: 2019-4-4 22:08
+----------------------------------------------------
+Merged local changes
+
