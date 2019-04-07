@@ -128,3 +128,8 @@ The new quest, igmeBloodMoon, has Dialogue. Sigirid will speak with you in the u
 ----------------------------------------------------
 Merged local changes
 
+----------------------------------------------------
+--User: OWNER ESM: StalkerUnderBloodMoon.esm Date: 2019-4-7 20:44
+----------------------------------------------------
+Added the set effect. This includes a magical effect with a script attached, an enchantment that uses a modified version of Beastbane's, and a duplicate of Beastbane with the new set effect.
+
