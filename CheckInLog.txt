@@ -138,3 +138,8 @@ Added the set effect. This includes a magical effect with a script attached, an 
 ----------------------------------------------------
 Tested quest triggers and placeholder quest framework
 
+----------------------------------------------------
+--User: axf4764 ESM: StalkerUnderBloodMoon.esm Date: 2019-4-8 16:52
+----------------------------------------------------
+Ghostly Hircine Challenge
+
