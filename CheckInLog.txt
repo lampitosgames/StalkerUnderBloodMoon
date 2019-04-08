@@ -133,3 +133,8 @@ Merged local changes
 ----------------------------------------------------
 Added the set effect. This includes a magical effect with a script attached, an enchantment that uses a modified version of Beastbane's, and a duplicate of Beastbane with the new set effect.
 
+----------------------------------------------------
+--User: axf4764 ESM: StalkerUnderBloodMoon.esm Date: 2019-4-8 16:30
+----------------------------------------------------
+Tested quest triggers and placeholder quest framework
+
