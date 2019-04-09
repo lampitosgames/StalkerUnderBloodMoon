@@ -143,3 +143,8 @@ Tested quest triggers and placeholder quest framework
 ----------------------------------------------------
 Ghostly Hircine Challenge
 
+----------------------------------------------------
+--User: james ESM: StalkerUnderBloodMoon.esm Date: 2019-4-9 22:58
+----------------------------------------------------
+Trees and rocks and cliffs placement
+
