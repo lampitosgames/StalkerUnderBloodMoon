@@ -1,12 +1,12 @@
 ;BEGIN FRAGMENT CODE - Do not edit anything between this and the end comment
-;NEXT FRAGMENT INDEX 2
-Scriptname QF_igmeBloodMoon_01000B16 Extends Quest Hidden
+;NEXT FRAGMENT INDEX 0
+Scriptname TIF__01000C8A Extends TopicInfo Hidden
 
 ;BEGIN FRAGMENT Fragment_0
-Function Fragment_0()
+Function Fragment_0(ObjectReference akSpeakerRef)
+Actor akSpeaker = akSpeakerRef as Actor
 ;BEGIN CODE
-SetObjectivecompleted(20)
-SetObjectivedisplayed(30)
+;CODE NOT LOADED
 ;END CODE
 EndFunction
 ;END FRAGMENT
