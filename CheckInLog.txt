@@ -158,3 +158,13 @@ Prop placement on the left side of the map, including trees, rocks and giants.
 ----------------------------------------------------
 Tons of propping and terrain changes near the landing beach area. Added a second beach for one of the quests. Added some nice wenies, but there is a lot more underbrush and small propping that needs to be done
 
+----------------------------------------------------
+--User: james ESM: StalkerUnderBloodMoon.esm Date: 2019-4-10 16:53
+----------------------------------------------------
+Trees and rocks and cliffs placement
+
+----------------------------------------------------
+--User: james ESM: StalkerUnderBloodMoon.esm Date: 2019-4-10 16:56
+----------------------------------------------------
+Trees and rocks and cliffs placement
+
