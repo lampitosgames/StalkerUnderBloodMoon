@@ -148,3 +148,8 @@ Ghostly Hircine Challenge
 ----------------------------------------------------
 Trees and rocks and cliffs placement
 
+----------------------------------------------------
+--User: OWNER ESM: StalkerUnderBloodMoon.esm Date: 2019-4-10 01:37
+----------------------------------------------------
+Prop placement on the left side of the map, including trees, rocks and giants.
+
