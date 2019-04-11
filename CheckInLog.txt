@@ -183,3 +183,8 @@ Ghostly Other Hircine Challenge, can talk to deer dude
 ----------------------------------------------------
 finished boss area
 
+----------------------------------------------------
+--User: axf4764 ESM: StalkerUnderBloodMoon.esm Date: 2019-4-11 23:38
+----------------------------------------------------
+Added quest triggers to the first section of the mod with quest completion
+
