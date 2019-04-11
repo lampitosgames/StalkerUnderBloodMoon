@@ -178,3 +178,8 @@ Merged John's changes with James's terrain propping
 ----------------------------------------------------
 Ghostly Other Hircine Challenge, can talk to deer dude
 
+----------------------------------------------------
+--User: james ESM: StalkerUnderBloodMoon.esm Date: 2019-4-11 23:10
+----------------------------------------------------
+finished boss area
+
