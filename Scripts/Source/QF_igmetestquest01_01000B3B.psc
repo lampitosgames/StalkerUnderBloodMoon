@@ -10,6 +10,7 @@ ReferenceAlias Property Alias_completer Auto
 ;BEGIN FRAGMENT Fragment_6
 Function Fragment_6()
 ;BEGIN CODE
+mainQuestRef.SetStage(50)
 SetObjectiveCompleted(10)
 ;END CODE
 EndFunction
@@ -24,3 +25,5 @@ EndFunction
 ;END FRAGMENT
 
 ;END FRAGMENT CODE - Do not edit anything between this and the begin comment
+
+Quest Property mainQuestRef  Auto  
