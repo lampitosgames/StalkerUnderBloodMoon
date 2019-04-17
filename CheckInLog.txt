@@ -188,3 +188,8 @@ finished boss area
 ----------------------------------------------------
 Added quest triggers to the first section of the mod with quest completion
 
+----------------------------------------------------
+--User: james ESM: StalkerUnderBloodMoon.esm Date: 2019-4-17 03:08
+----------------------------------------------------
+finished boss area
+
