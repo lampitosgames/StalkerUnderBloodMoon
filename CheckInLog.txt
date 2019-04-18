@@ -193,3 +193,8 @@ Added quest triggers to the first section of the mod with quest completion
 ----------------------------------------------------
 finished boss area
 
+----------------------------------------------------
+--User: james ESM: StalkerUnderBloodMoon.esm Date: 2019-4-18 04:09
+----------------------------------------------------
+propped backside of middle island
+
