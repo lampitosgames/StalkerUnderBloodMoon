@@ -198,3 +198,8 @@ finished boss area
 ----------------------------------------------------
 propped backside of middle island
 
+----------------------------------------------------
+--User: axf4764 ESM: StalkerUnderBloodMoon.esm Date: 2019-4-19 16:33
+----------------------------------------------------
+Quest first section implemented
+
