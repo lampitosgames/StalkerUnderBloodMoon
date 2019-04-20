@@ -1,26 +1,73 @@
 ;BEGIN FRAGMENT CODE - Do not edit anything between this and the end comment
-;NEXT FRAGMENT INDEX 16
+;NEXT FRAGMENT INDEX 28
 Scriptname QF_igmeBloodMoon_01000B16 Extends Quest Hidden
 
-;BEGIN FRAGMENT Fragment_15
-Function Fragment_15()
+;BEGIN FRAGMENT Fragment_24
+Function Fragment_24()
 ;BEGIN CODE
-SetObjectiveCompleted(75)
-SetObjectiveDisplayed(80)
-PillarRef.Disable(false)
-SigridREF.Enable(false)
-CreedRef.Enable(false)
-HavgrirRef.Enable(false)
+SetObjectiveCompleted(125)
+SetObjectiveDisplayed(130)
 ;END CODE
 EndFunction
 ;END FRAGMENT
 
-;BEGIN FRAGMENT Fragment_4
-Function Fragment_4()
+;BEGIN FRAGMENT Fragment_14
+Function Fragment_14()
 ;BEGIN CODE
-SetObjectiveCompleted(30)
-boattowerewolf.Enable(true)
-setObjectiveDisplayed(40)
+SetObjectiveCompleted(70)
+SetObjectiveDisplayed(75)
+Game.GetPlayer().MoveTo(PillarDestRef)
+;END CODE
+EndFunction
+;END FRAGMENT
+
+;BEGIN FRAGMENT Fragment_20
+Function Fragment_20()
+;BEGIN CODE
+SetObjectiveCompleted(95)
+SetObjectiveDisplayed(100)
+;END CODE
+EndFunction
+;END FRAGMENT
+
+;BEGIN FRAGMENT Fragment_9
+Function Fragment_9()
+;BEGIN CODE
+SetObjectiveDisplayed(10)
+WindhelmSigrid.Disable(false)
+Game.GetPlayer().MoveTo(SheoIslandLanding)
+;END CODE
+EndFunction
+;END FRAGMENT
+
+;BEGIN FRAGMENT Fragment_23
+Function Fragment_23()
+;BEGIN CODE
+Game.GetPlayer().MoveTo(BloodmoonGroveRef)
+SetObjectiveCompleted(110)
+SetObjectiveDisplayed(125)
+SigridREF.Disable(false)
+CreedRef.Disable(false)
+HavgrirRef.Disable(false)
+;END CODE
+EndFunction
+;END FRAGMENT
+
+;BEGIN FRAGMENT Fragment_21
+Function Fragment_21()
+;BEGIN CODE
+SetObjectiveCompleted(100)
+SetObjectiveDisplayed(110)
+;END CODE
+EndFunction
+;END FRAGMENT
+
+;BEGIN FRAGMENT Fragment_0
+Function Fragment_0()
+;BEGIN CODE
+SetObjectiveCompleted(20)
+
+SetStage(40)
 ;END CODE
 EndFunction
 ;END FRAGMENT
@@ -34,15 +81,21 @@ SetObjectiveDisplayed(50)
 EndFunction
 ;END FRAGMENT
 
-;BEGIN FRAGMENT Fragment_11
-Function Fragment_11()
+;BEGIN FRAGMENT Fragment_18
+Function Fragment_18()
 ;BEGIN CODE
-SetObjectiveDisplayed(20)
-SetObjectiveCompleted(10)
-Game.FadeOutGame(false, true, 1.0, 3.0)
-SigridREF.MoveTo(CampsiteMarker)
-CreedRef.MoveTo(CampsiteMarker)
-HavgrirRef.MoveTo(CampsiteMarker)
+SetObjectiveCompleted(80)
+SetObjectiveDisplayed(90)
+;END CODE
+EndFunction
+;END FRAGMENT
+
+;BEGIN FRAGMENT Fragment_25
+Function Fragment_25()
+;BEGIN CODE
+SetObjectiveCompleted(130)
+SetObjectiveDisplayed(140)
+GhostlyHircy.Enable(False)
 ;END CODE
 EndFunction
 ;END FRAGMENT
@@ -62,6 +115,15 @@ HavgrirRef.Disable(false)
 EndFunction
 ;END FRAGMENT
 
+;BEGIN FRAGMENT Fragment_27
+Function Fragment_27()
+;BEGIN CODE
+SetObjectiveCompleted(150)
+SetObjectiveDisplayed(160)
+;END CODE
+EndFunction
+;END FRAGMENT
+
 ;BEGIN FRAGMENT Fragment_6
 Function Fragment_6()
 ;BEGIN CODE
@@ -72,22 +134,33 @@ SetObjectiveDisplayed(45)
 EndFunction
 ;END FRAGMENT
 
-;BEGIN FRAGMENT Fragment_9
-Function Fragment_9()
+;BEGIN FRAGMENT Fragment_22
+Function Fragment_22()
 ;BEGIN CODE
-SetObjectiveDisplayed(10)
-WindhelmSigrid.Enable(false)
-Game.GetPlayer().MoveTo(SheoIslandLanding)
+SetObjectiveCompleted(110)
+SetObjectiveDisplayed(120)
 ;END CODE
 EndFunction
 ;END FRAGMENT
 
-;BEGIN FRAGMENT Fragment_14
-Function Fragment_14()
+;BEGIN FRAGMENT Fragment_11
+Function Fragment_11()
 ;BEGIN CODE
-SetObjectiveCompleted(70)
-SetObjectiveDisplayed(75)
-Game.GetPlayer().MoveTo(PillarDestRef)
+SetObjectiveDisplayed(20)
+SetObjectiveCompleted(10)
+Game.FadeOutGame(false, true, 1.0, 3.0)
+SigridREF.MoveTo(CampsiteMarker)
+CreedRef.MoveTo(CampsiteMarker)
+HavgrirRef.MoveTo(CampsiteMarker)
+;END CODE
+EndFunction
+;END FRAGMENT
+
+;BEGIN FRAGMENT Fragment_26
+Function Fragment_26()
+;BEGIN CODE
+SetObjectiveCompleted(140)
+SetObjectiveDisplayed(150)
 ;END CODE
 EndFunction
 ;END FRAGMENT
@@ -101,12 +174,35 @@ SetObjectiveDisplayed(60)
 EndFunction
 ;END FRAGMENT
 
-;BEGIN FRAGMENT Fragment_0
-Function Fragment_0()
+;BEGIN FRAGMENT Fragment_4
+Function Fragment_4()
 ;BEGIN CODE
-SetObjectiveCompleted(20)
+SetObjectiveCompleted(30)
+boattowerewolf.Enable(true)
+setObjectiveDisplayed(40)
+;END CODE
+EndFunction
+;END FRAGMENT
 
-SetStage(40)
+;BEGIN FRAGMENT Fragment_19
+Function Fragment_19()
+;BEGIN CODE
+SetObjectiveCompleted(90)
+SetObjectiveDisplayed(95)
+Game.GetPlayer().MoveTo(HorkerIslandRef)
+;END CODE
+EndFunction
+;END FRAGMENT
+
+;BEGIN FRAGMENT Fragment_15
+Function Fragment_15()
+;BEGIN CODE
+SetObjectiveCompleted(75)
+SetObjectiveDisplayed(80)
+PillarRef.Disable(false)
+SigridREF.Enable(false)
+CreedRef.Enable(false)
+HavgrirRef.Enable(false)
 ;END CODE
 EndFunction
 ;END FRAGMENT
@@ -136,3 +232,10 @@ GlobalVariable Property GameHour  Auto
 ObjectReference Property PillarRef  Auto  
 
 ObjectReference Property PillarDestRef  Auto  
+
+ObjectReference Property HorkerIslandRef  Auto  
+
+
+ObjectReference Property BloodmoonGroveRef  Auto  
+
+ObjectReference Property GhostlyHircy  Auto  

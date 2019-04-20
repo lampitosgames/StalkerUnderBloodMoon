@@ -218,3 +218,8 @@ Added Bow + Loose Texture/Mesh Files
 ----------------------------------------------------
 propped backside of middle island
 
+----------------------------------------------------
+--User: d ESM: StalkerUnderBloodMoon.esm Date: 2019-4-20 22:00
+----------------------------------------------------
+Austin's quest changes merged in - Quest Stage 2
+
