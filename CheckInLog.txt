@@ -208,3 +208,8 @@ Quest first section implemented
 ----------------------------------------------------
 Prop placement on the left side of the map, including trees, rocks, shrubs, etc.
 
+----------------------------------------------------
+--User: roncd ESM: StalkerUnderBloodMoon.esm Date: 2019-4-20 19:32
+----------------------------------------------------
+Added Bow + Loose Texture/Mesh Files
+
