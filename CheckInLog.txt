@@ -213,3 +213,8 @@ Prop placement on the left side of the map, including trees, rocks, shrubs, etc.
 ----------------------------------------------------
 Added Bow + Loose Texture/Mesh Files
 
+----------------------------------------------------
+--User: james ESM: StalkerUnderBloodMoon.esm Date: 2019-4-20 20:19
+----------------------------------------------------
+propped backside of middle island
+
