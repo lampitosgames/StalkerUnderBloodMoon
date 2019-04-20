@@ -1,30 +1,26 @@
 ;BEGIN FRAGMENT CODE - Do not edit anything between this and the end comment
-;NEXT FRAGMENT INDEX 8
+;NEXT FRAGMENT INDEX 16
 Scriptname QF_igmeBloodMoon_01000B16 Extends Quest Hidden
 
-;BEGIN FRAGMENT Fragment_6
-Function Fragment_6()
+;BEGIN FRAGMENT Fragment_15
+Function Fragment_15()
 ;BEGIN CODE
-SetObjectiveCompleted(40)
-SetObjectiveDisplayed(45)
+SetObjectiveCompleted(75)
+SetObjectiveDisplayed(80)
+PillarRef.Disable(false)
+SigridREF.Enable(false)
+CreedRef.Enable(false)
+HavgrirRef.Enable(false)
 ;END CODE
 EndFunction
 ;END FRAGMENT
 
-;BEGIN FRAGMENT Fragment_2
-Function Fragment_2()
+;BEGIN FRAGMENT Fragment_4
+Function Fragment_4()
 ;BEGIN CODE
-igmewerewolfboat.Lock(false)
-Game.GetPlayer().MoveTo(islandRef)
-;END CODE
-EndFunction
-;END FRAGMENT
-
-;BEGIN FRAGMENT Fragment_0
-Function Fragment_0()
-;BEGIN CODE
-SetObjectiveCompleted(20)
-SetStage(40)
+SetObjectiveCompleted(30)
+boattowerewolf.Enable(true)
+setObjectiveDisplayed(40)
 ;END CODE
 EndFunction
 ;END FRAGMENT
@@ -38,11 +34,79 @@ SetObjectiveDisplayed(50)
 EndFunction
 ;END FRAGMENT
 
-;BEGIN FRAGMENT Fragment_4
-Function Fragment_4()
+;BEGIN FRAGMENT Fragment_11
+Function Fragment_11()
 ;BEGIN CODE
-SetObjectiveCompleted(30)
-SetObjectiveDisplayed(40)
+SetObjectiveDisplayed(20)
+SetObjectiveCompleted(10)
+Game.FadeOutGame(false, true, 1.0, 3.0)
+SigridREF.MoveTo(CampsiteMarker)
+CreedRef.MoveTo(CampsiteMarker)
+HavgrirRef.MoveTo(CampsiteMarker)
+;END CODE
+EndFunction
+;END FRAGMENT
+
+;BEGIN FRAGMENT Fragment_13
+Function Fragment_13()
+;BEGIN CODE
+SetObjectiveCompleted(60)
+SetObjectiveDisplayed(70)
+Game.FadeOutGame(false, true, 1.0, 3.0)
+GameHour.SetValue(22)
+PillarRef.Enable(false)
+SigridREF.Disable(false)
+CreedRef.Disable(false)
+HavgrirRef.Disable(false)
+;END CODE
+EndFunction
+;END FRAGMENT
+
+;BEGIN FRAGMENT Fragment_6
+Function Fragment_6()
+;BEGIN CODE
+SetObjectiveCompleted(40)
+boattowerewolf.Enable(false)
+SetObjectiveDisplayed(45)
+;END CODE
+EndFunction
+;END FRAGMENT
+
+;BEGIN FRAGMENT Fragment_9
+Function Fragment_9()
+;BEGIN CODE
+SetObjectiveDisplayed(10)
+WindhelmSigrid.Enable(false)
+Game.GetPlayer().MoveTo(SheoIslandLanding)
+;END CODE
+EndFunction
+;END FRAGMENT
+
+;BEGIN FRAGMENT Fragment_14
+Function Fragment_14()
+;BEGIN CODE
+SetObjectiveCompleted(70)
+SetObjectiveDisplayed(75)
+Game.GetPlayer().MoveTo(PillarDestRef)
+;END CODE
+EndFunction
+;END FRAGMENT
+
+;BEGIN FRAGMENT Fragment_12
+Function Fragment_12()
+;BEGIN CODE
+SetObjectiveCompleted(50)
+SetObjectiveDisplayed(60)
+;END CODE
+EndFunction
+;END FRAGMENT
+
+;BEGIN FRAGMENT Fragment_0
+Function Fragment_0()
+;BEGIN CODE
+SetObjectiveCompleted(20)
+
+SetStage(40)
 ;END CODE
 EndFunction
 ;END FRAGMENT
@@ -52,3 +116,23 @@ EndFunction
 ObjectReference Property islandRef  Auto  
 
 ObjectReference Property igmewerewolfboat  Auto  
+
+ObjectReference Property WindhelmSigrid  Auto  
+
+ObjectReference Property SheoIslandLanding  Auto  
+
+ObjectReference Property SigridREF  Auto  
+
+ObjectReference Property CreedRef  Auto  
+
+ObjectReference Property HavgrirRef  Auto  
+
+ObjectReference Property CampsiteMarker  Auto  
+
+ObjectReference Property boattowerewolf  Auto  
+
+GlobalVariable Property GameHour  Auto  
+
+ObjectReference Property PillarRef  Auto  
+
+ObjectReference Property PillarDestRef  Auto  
