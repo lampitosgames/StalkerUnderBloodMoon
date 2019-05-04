@@ -1,30 +1,27 @@
 ;BEGIN FRAGMENT CODE - Do not edit anything between this and the end comment
-;NEXT FRAGMENT INDEX 28
+;NEXT FRAGMENT INDEX 30
 Scriptname QF_igmeBloodMoon_01000B16 Extends Quest Hidden
 
-;BEGIN FRAGMENT Fragment_12
-Function Fragment_12()
-;BEGIN CODE
-SetObjectiveCompleted(50)
-SetObjectiveDisplayed(60)
-;END CODE
-EndFunction
-;END FRAGMENT
+;BEGIN ALIAS PROPERTY Alias_Sigrid
+;ALIAS PROPERTY TYPE ReferenceAlias
+ReferenceAlias Property Alias_Alias_Sigrid Auto
+;END ALIAS PROPERTY
 
-;BEGIN FRAGMENT Fragment_19
-Function Fragment_19()
-;BEGIN CODE
-SetObjectiveCompleted(90)
-SetObjectiveDisplayed(95)
-Game.GetPlayer().MoveTo(HorkerIslandRef)
-;END CODE
-EndFunction
-;END FRAGMENT
+;BEGIN ALIAS PROPERTY Alias_Havgrir
+;ALIAS PROPERTY TYPE ReferenceAlias
+ReferenceAlias Property Alias_Alias_Havgrir Auto
+;END ALIAS PROPERTY
 
-;BEGIN FRAGMENT Fragment_0
-Function Fragment_0()
+;BEGIN ALIAS PROPERTY Alias_Campsite
+;ALIAS PROPERTY TYPE ReferenceAlias
+ReferenceAlias Property Alias_Alias_Campsite Auto
+;END ALIAS PROPERTY
+
+;BEGIN FRAGMENT Fragment_20
+Function Fragment_20()
 ;BEGIN CODE
-SetObjectiveCompleted(20)
+SetObjectiveCompleted(95)
+SetObjectiveDisplayed(100)
 ;END CODE
 EndFunction
 ;END FRAGMENT
@@ -42,34 +39,12 @@ HavgrirRef.MoveTo(CampsiteMarker)
 EndFunction
 ;END FRAGMENT
 
-;BEGIN FRAGMENT Fragment_9
-Function Fragment_9()
+;BEGIN FRAGMENT Fragment_14
+Function Fragment_14()
 ;BEGIN CODE
-SetObjectiveDisplayed(10)
-WindhelmSigrid.Disable(false)
-Game.GetPlayer().MoveTo(SheoIslandLanding)
-;END CODE
-EndFunction
-;END FRAGMENT
-
-;BEGIN FRAGMENT Fragment_23
-Function Fragment_23()
-;BEGIN CODE
-Game.GetPlayer().MoveTo(BloodmoonStart)
-SetObjectiveCompleted(110)
-SetObjectiveDisplayed(125)
-SigridREF.Disable(false)
-CreedRef.Disable(false)
-HavgrirRef.Disable(false)
-;END CODE
-EndFunction
-;END FRAGMENT
-
-;BEGIN FRAGMENT Fragment_21
-Function Fragment_21()
-;BEGIN CODE
-SetObjectiveCompleted(100)
-SetObjectiveDisplayed(110)
+SetObjectiveCompleted(70)
+SetObjectiveDisplayed(75)
+Game.GetPlayer().MoveTo(PillOfFireStart)
 ;END CODE
 EndFunction
 ;END FRAGMENT
@@ -83,29 +58,21 @@ SetObjectiveDisplayed(160)
 EndFunction
 ;END FRAGMENT
 
-;BEGIN FRAGMENT Fragment_18
-Function Fragment_18()
-;BEGIN CODE
-SetObjectiveCompleted(80)
-SetObjectiveDisplayed(90)
-;END CODE
-EndFunction
-;END FRAGMENT
-
-;BEGIN FRAGMENT Fragment_22
-Function Fragment_22()
-;BEGIN CODE
-SetObjectiveCompleted(110)
-SetObjectiveDisplayed(120)
-;END CODE
-EndFunction
-;END FRAGMENT
-
 ;BEGIN FRAGMENT Fragment_24
 Function Fragment_24()
 ;BEGIN CODE
 SetObjectiveCompleted(125)
 SetObjectiveDisplayed(130)
+;END CODE
+EndFunction
+;END FRAGMENT
+
+;BEGIN FRAGMENT Fragment_7
+Function Fragment_7()
+;BEGIN CODE
+Game.GetPlayer().MoveTo(SheoIslandLanding)
+SetObjectiveCompleted(45)
+SetObjectiveDisplayed(50)
 ;END CODE
 EndFunction
 ;END FRAGMENT
@@ -123,12 +90,61 @@ HavgrirRef.Enable(false)
 EndFunction
 ;END FRAGMENT
 
-;BEGIN FRAGMENT Fragment_14
-Function Fragment_14()
+;BEGIN FRAGMENT Fragment_23
+Function Fragment_23()
 ;BEGIN CODE
-SetObjectiveCompleted(70)
-SetObjectiveDisplayed(75)
-Game.GetPlayer().MoveTo(PillOfFireStart)
+Game.GetPlayer().MoveTo(BloodmoonStart)
+SetObjectiveCompleted(110)
+SetObjectiveDisplayed(125)
+SigridREF.Disable(false)
+CreedRef.Disable(false)
+HavgrirRef.Disable(false)
+;END CODE
+EndFunction
+;END FRAGMENT
+
+;BEGIN FRAGMENT Fragment_9
+Function Fragment_9()
+;BEGIN CODE
+SetObjectiveDisplayed(10)
+WindhelmSigrid.Disable(false)
+Game.GetPlayer().MoveTo(SheoIslandLanding)
+;END CODE
+EndFunction
+;END FRAGMENT
+
+;BEGIN FRAGMENT Fragment_28
+Function Fragment_28()
+;BEGIN CODE
+finalbear.Enable(false)
+SetObjectiveCompleted(150)
+SetObjectiveDisplayed(170)
+;END CODE
+EndFunction
+;END FRAGMENT
+
+;BEGIN FRAGMENT Fragment_29
+Function Fragment_29()
+;BEGIN CODE
+SetObjectiveCompleted(170)
+SetObjectiveDisplayed(180)
+;END CODE
+EndFunction
+;END FRAGMENT
+
+;BEGIN FRAGMENT Fragment_25
+Function Fragment_25()
+;BEGIN CODE
+Game.GetPlayer().MoveTo(CampsiteMarker)
+SetObjectiveCompleted(130)
+SetObjectiveDisplayed(140)
+SigridREF.Disable(false)
+CreedRef.Disable(false)
+HavgrirRef.Disable(false)
+GhostlyHircy.Enable(false)
+SigridDead.Enable(false)
+CreedCorpse.Enable(false)
+HavgrirDead.Enable(false)
 ;END CODE
 EndFunction
 ;END FRAGMENT
@@ -148,12 +164,21 @@ HavgrirRef.Disable(false)
 EndFunction
 ;END FRAGMENT
 
-;BEGIN FRAGMENT Fragment_25
-Function Fragment_25()
+;BEGIN FRAGMENT Fragment_19
+Function Fragment_19()
 ;BEGIN CODE
-SetObjectiveCompleted(130)
-SetObjectiveDisplayed(140)
-GhostlyHircy.Enable(False)
+SetObjectiveCompleted(90)
+SetObjectiveDisplayed(95)
+Game.GetPlayer().MoveTo(HorkerIslandRef)
+;END CODE
+EndFunction
+;END FRAGMENT
+
+;BEGIN FRAGMENT Fragment_12
+Function Fragment_12()
+;BEGIN CODE
+SetObjectiveCompleted(50)
+SetObjectiveDisplayed(60)
 ;END CODE
 EndFunction
 ;END FRAGMENT
@@ -167,21 +192,28 @@ SetObjectiveDisplayed(150)
 EndFunction
 ;END FRAGMENT
 
-;BEGIN FRAGMENT Fragment_4
-Function Fragment_4()
+;BEGIN FRAGMENT Fragment_0
+Function Fragment_0()
 ;BEGIN CODE
-SetObjectiveCompleted(30)
-boattowerewolf.Enable(true)
-setObjectiveDisplayed(40)
+SetObjectiveCompleted(20)
 ;END CODE
 EndFunction
 ;END FRAGMENT
 
-;BEGIN FRAGMENT Fragment_20
-Function Fragment_20()
+;BEGIN FRAGMENT Fragment_22
+Function Fragment_22()
 ;BEGIN CODE
-SetObjectiveCompleted(95)
-SetObjectiveDisplayed(100)
+SetObjectiveCompleted(110)
+SetObjectiveDisplayed(120)
+;END CODE
+EndFunction
+;END FRAGMENT
+
+;BEGIN FRAGMENT Fragment_18
+Function Fragment_18()
+;BEGIN CODE
+SetObjectiveCompleted(80)
+SetObjectiveDisplayed(90)
 ;END CODE
 EndFunction
 ;END FRAGMENT
@@ -196,11 +228,21 @@ SetObjectiveDisplayed(45)
 EndFunction
 ;END FRAGMENT
 
-;BEGIN FRAGMENT Fragment_7
-Function Fragment_7()
+;BEGIN FRAGMENT Fragment_4
+Function Fragment_4()
 ;BEGIN CODE
-SetObjectiveCompleted(45)
-SetObjectiveDisplayed(50)
+SetObjectiveCompleted(30)
+boattowerewolf.Enable(true)
+setObjectiveDisplayed(40)
+;END CODE
+EndFunction
+;END FRAGMENT
+
+;BEGIN FRAGMENT Fragment_21
+Function Fragment_21()
+;BEGIN CODE
+SetObjectiveCompleted(100)
+SetObjectiveDisplayed(110)
 ;END CODE
 EndFunction
 ;END FRAGMENT
@@ -241,3 +283,13 @@ ObjectReference Property GhostlyHircy  Auto
 ObjectReference Property PillOfFireStart  Auto  
 
 ObjectReference Property BloodmoonStart  Auto  
+
+ObjectReference Property finalbear  Auto  
+
+ObjectReference Property SigridDead  Auto  
+
+Int Property CreedDead  Auto  
+
+ObjectReference Property CreedCorpse  Auto  
+
+ObjectReference Property HavgrirDead  Auto  
